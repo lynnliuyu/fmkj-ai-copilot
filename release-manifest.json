@@ -7,7 +7,7 @@
   "macVersion": "0.1.157",
   "macBundledUi": "0.1.161",
   "uiUpdateVersion": "0.1.161",
-  "notes": "Windows x64：0.1.156（内置 UI 0.1.158）；macOS Apple Silicon：0.1.157（内置 UI 0.1.161）。\n\n当前可获取的界面更新：0.1.161。界面更新可以在主页点击「检查更新」；更换系统应用图标需要安装完整新版。\n\n近期更新：账户页面与客户端风格统一、确认弹窗样式修复、主页显示更新入口和 QQ 联系/购买入口；Mac 新包使用彩色 FMK 系统图标。\n\n测试包未具备正式平台签名或 Apple 公证。下载版本不代表原生稳定自动更新清单版本。旧版本记录保留。\n\n官方下载：https://copilot.fmkj.top/download\n校验值见本 Release 的 SHA256SUMS.txt。",
+  "notes": "Windows x64：0.1.156（内置 UI 0.1.158）；macOS Apple Silicon：0.1.157（内置 UI 0.1.161）。\n\n当前可获取的界面更新：0.1.161。更新后的界面在主页提供「检查更新」入口；更换系统应用图标需要安装完整新版。\n\n近期更新：账户页面与客户端风格统一、确认弹窗样式修复、主页显示更新入口和 QQ 联系/购买入口；Mac 新包使用彩色 FMK 系统图标。\n\n测试包未具备正式平台签名或 Apple 公证。下载版本不代表原生稳定自动更新清单版本。旧版本记录保留。\n\n官方下载：https://copilot.fmkj.top/download\n校验值见本 Release 的 SHA256SUMS.txt。",
   "assets": [
     {
       "name": "fmkj-copilot-0.1.156-windows-x64-test.exe",
