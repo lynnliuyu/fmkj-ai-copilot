@@ -18,13 +18,13 @@
 <!-- release-sync:start -->
 | 下载 | 客户端版本 | 内置界面 |
 |---|---|---|
-| [Windows x64 安装版](https://copilot.fmkj.top/download/candidates/0.1.158-75a2c162/fmkj-copilot-0.1.158-windows-x64-test.exe) | 0.1.158 | 0.1.162 |
-| [Windows x64 免安装版](https://copilot.fmkj.top/download/candidates/0.1.158-75a2c162/fmkj-copilot-0.1.158-windows-x64-standalone-test.exe) | 0.1.158 | 0.1.162 |
-| [macOS Apple Silicon](https://copilot.fmkj.top/download/connect-mac/0.1.157/FMKJ-Connect-macOS-0.1.157-arm64-unsigned.dmg) | 0.1.157 | 0.1.161 |
+| [Windows x64 安装版](https://copilot.fmkj.top/download/candidates/0.1.159-bdbdda83/fmkj-copilot-0.1.159-windows-x64-test.exe) | 0.1.159 | 0.1.163 |
+| [Windows x64 免安装版](https://copilot.fmkj.top/download/candidates/0.1.159-bdbdda83/fmkj-copilot-0.1.159-windows-x64-standalone-test.exe) | 0.1.159 | 0.1.163 |
+| [macOS Apple Silicon](https://copilot.fmkj.top/download/connect-mac/0.1.159/FMKJ-Connect-macOS-0.1.159-arm64-unsigned.dmg) | 0.1.159 | 0.1.163 |
 
 **当前界面更新：0.1.161**。新版界面在主页提供「检查更新」入口。系统应用图标等原生资源需下载完整安装包更新。
 
-[本次发布记录与安装包](https://github.com/lynnliuyu/fmkj-ai-copilot/releases/tag/delivery-win0.1.158-mac0.1.157-ui0.1.161) · [所有发布记录](https://github.com/lynnliuyu/fmkj-ai-copilot/releases)
+[本次发布记录与安装包](https://github.com/lynnliuyu/fmkj-ai-copilot/releases/tag/delivery-win0.1.159-mac0.1.159-ui0.1.161) · [所有发布记录](https://github.com/lynnliuyu/fmkj-ai-copilot/releases)
 <!-- release-sync:end -->
 
 ## 安装与使用
