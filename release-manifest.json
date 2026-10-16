@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "tag": "delivery-win0.1.156-mac0.1.157-ui0.1.161",
-  "title": "客户端更新 · Windows 0.1.156 / Mac 0.1.157 / UI 0.1.161",
-  "windowsVersion": "0.1.156",
-  "windowsBundledUi": "0.1.158",
+  "tag": "delivery-win0.1.158-mac0.1.157-ui0.1.161",
+  "title": "客户端更新 · Windows 0.1.158 / Mac 0.1.157 / UI 0.1.161",
+  "windowsVersion": "0.1.158",
+  "windowsBundledUi": "0.1.162",
   "macVersion": "0.1.157",
   "macBundledUi": "0.1.161",
   "uiUpdateVersion": "0.1.161",
-  "notes": "Windows x64：0.1.156（内置 UI 0.1.158）；macOS Apple Silicon：0.1.157（内置 UI 0.1.161）。\n\n当前可获取的界面更新：0.1.161。更新后的界面在主页提供「检查更新」入口；更换系统应用图标需要安装完整新版。\n\n近期更新：账户页面与客户端风格统一、确认弹窗样式修复、主页显示更新入口和 QQ 联系/购买入口；Mac 新包使用彩色 FMK 系统图标。\n\n测试包未具备正式平台签名或 Apple 公证。下载版本不代表原生稳定自动更新清单版本。旧版本记录保留。\n\n官方下载：https://copilot.fmkj.top/download\n校验值见本 Release 的 SHA256SUMS.txt。",
+  "notes": "Windows 0.1.158（内置 UI 0.1.162）：修复 Codex 运行时仍尝试写入配置的流程冲突，区分运行中、预览失效、权限、用户环境与账户后台同步的错误提示；已有配置可重启，需写配置时提示先退出；不会因此重复创建服务密钥。\n\nmacOS Apple Silicon 保持 0.1.157（内置 UI 0.1.161）。当前独立界面更新仍为 0.1.161，0.1.162 本次仅随 Windows 完整包交付。\n\n测试包未具备正式平台签名或 Apple 公证，Windows 实机安装升级尚未验收。下载版本不代表原生稳定自动更新清单版本。旧版本记录保留。\n\n官方下载：https://copilot.fmkj.top/download\n校验值见本 Release 的 SHA256SUMS.txt。",
   "assets": [
     {
-      "name": "fmkj-copilot-0.1.156-windows-x64-test.exe",
-      "folder": "candidates/0.1.156-3d946670",
+      "name": "fmkj-copilot-0.1.158-windows-x64-test.exe",
+      "folder": "candidates/0.1.158-75a2c162",
       "platform": "windows-setup",
-      "url": "https://copilot.fmkj.top/download/candidates/0.1.156-3d946670/fmkj-copilot-0.1.156-windows-x64-test.exe",
-      "bytes": 12983176,
-      "sha256": "73cdec13850c07a75246be04b44424ef23a1d94c0be14ed367419b81b4c8556f"
+      "url": "https://copilot.fmkj.top/download/candidates/0.1.158-75a2c162/fmkj-copilot-0.1.158-windows-x64-test.exe",
+      "bytes": 13061954,
+      "sha256": "77fa06338ff6a638a57a514d679791b8e88a4b56d62859f1a0e35729847cbf69"
     },
     {
-      "name": "fmkj-copilot-0.1.156-windows-x64-standalone-test.exe",
-      "folder": "candidates/0.1.156-3d946670",
+      "name": "fmkj-copilot-0.1.158-windows-x64-standalone-test.exe",
+      "folder": "candidates/0.1.158-75a2c162",
       "platform": "windows-standalone",
-      "url": "https://copilot.fmkj.top/download/candidates/0.1.156-3d946670/fmkj-copilot-0.1.156-windows-x64-standalone-test.exe",
-      "bytes": 27032576,
-      "sha256": "c3e2db676e6f33478c399865b8a366f4e42eff924aa4a0ff8fc815858436c71f"
+      "url": "https://copilot.fmkj.top/download/candidates/0.1.158-75a2c162/fmkj-copilot-0.1.158-windows-x64-standalone-test.exe",
+      "bytes": 27036160,
+      "sha256": "3b7c54e0705d7c22e13ae0715ddbad6c5f19c6665d91c62eaf9d76bda96454ed"
     },
     {
       "name": "FMKJ-Connect-macOS-0.1.157-arm64-unsigned.dmg",
