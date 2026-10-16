@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "tag": "delivery-win0.1.156-mac0.1.157-ui0.1.161",
+  "title": "客户端更新 · Windows 0.1.156 / Mac 0.1.157 / UI 0.1.161",
+  "windowsVersion": "0.1.156",
+  "windowsBundledUi": "0.1.158",
+  "macVersion": "0.1.157",
+  "macBundledUi": "0.1.161",
+  "uiUpdateVersion": "0.1.161",
+  "notes": "Windows x64：0.1.156（内置 UI 0.1.158）；macOS Apple Silicon：0.1.157（内置 UI 0.1.161）。\n\n当前可获取的界面更新：0.1.161。界面更新可以在主页点击「检查更新」；更换系统应用图标需要安装完整新版。\n\n近期更新：账户页面与客户端风格统一、确认弹窗样式修复、主页显示更新入口和 QQ 联系/购买入口；Mac 新包使用彩色 FMK 系统图标。\n\n测试包未具备正式平台签名或 Apple 公证。下载版本不代表原生稳定自动更新清单版本。旧版本记录保留。\n\n官方下载：https://copilot.fmkj.top/download\n校验值见本 Release 的 SHA256SUMS.txt。",
+  "assets": [
+    {
+      "name": "fmkj-copilot-0.1.156-windows-x64-test.exe",
+      "folder": "candidates/0.1.156-3d946670",
+      "platform": "windows-setup",
+      "url": "https://copilot.fmkj.top/download/candidates/0.1.156-3d946670/fmkj-copilot-0.1.156-windows-x64-test.exe",
+      "bytes": 12983176,
+      "sha256": "73cdec13850c07a75246be04b44424ef23a1d94c0be14ed367419b81b4c8556f"
+    },
+    {
+      "name": "fmkj-copilot-0.1.156-windows-x64-standalone-test.exe",
+      "folder": "candidates/0.1.156-3d946670",
+      "platform": "windows-standalone",
+      "url": "https://copilot.fmkj.top/download/candidates/0.1.156-3d946670/fmkj-copilot-0.1.156-windows-x64-standalone-test.exe",
+      "bytes": 27032576,
+      "sha256": "c3e2db676e6f33478c399865b8a366f4e42eff924aa4a0ff8fc815858436c71f"
+    },
+    {
+      "name": "FMKJ-Connect-macOS-0.1.157-arm64-unsigned.dmg",
+      "folder": "connect-mac/0.1.157",
+      "platform": "macos-arm64",
+      "url": "https://copilot.fmkj.top/download/connect-mac/0.1.157/FMKJ-Connect-macOS-0.1.157-arm64-unsigned.dmg",
+      "bytes": 16638373,
+      "sha256": "b74242818591125ca6435ad1a2605da0862954e893a586fde910e31905bbe8d2"
+    }
+  ]
+}
