@@ -15,7 +15,7 @@ async function api(path, method = 'GET', body) {
 const files = [];
 for (const asset of manifest.assets) {
   const url = new URL(asset.url);
-  if (url.protocol !== 'https:' || url.hostname !== 'copilot.fmkj.top' || !url.pathname.startsWith('/download/') || !/^[\w.-]+$/.test(asset.name)) throw new Error('Invalid public asset URL/name');
+  if (url.protocol !== 'https:' || url.hostname !== 'app.fmkj.top' || url.pathname !== `/downloads/${asset.name}` || !/^[\w.-]+$/.test(asset.name)) throw new Error('Invalid public asset URL/name');
   const response = await fetch(url, { redirect: 'error' });
   if (!response.ok) throw new Error(`Download ${asset.name}: ${response.status}`);
   const bytes = Buffer.from(await response.arrayBuffer());
