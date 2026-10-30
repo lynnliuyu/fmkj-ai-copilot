@@ -2,7 +2,7 @@ name: Sync public release
 on:
   push:
     branches: [main]
-    paths: [release-manifest.json, scripts/publish-release.mjs, .github/workflows/publish-release.yml]
+    paths: [release-manifest.json, 'scripts/**', .github/workflows/publish-release.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,6 +20,7 @@ jobs:
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
         with:
           node-version: 24
+      - run: node --test scripts/release-data.test.mjs
       - run: node scripts/publish-release.mjs
         env:
           GITHUB_TOKEN: ${{ github.token }}
